@@ -25,7 +25,7 @@ const CartPage = () => {
   // Handle quantity increase
   const handleIncrease = async (item) => {
     try {
-      const response = await fetch(`http://localhost:5000/carts/${item._id}`, {
+      const response = await fetch(`https://food-carts-server.onrender.com/carts/${item._id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -58,7 +58,7 @@ const CartPage = () => {
     if (item.quantity > 1) {
       try {
         const response = await fetch(
-          `http://localhost:5000/carts/${item._id}`,
+          `https://food-carts-server.onrender.com/carts/${item._id}`,
           {
             method: "PUT",
             headers: {
@@ -110,7 +110,7 @@ const CartPage = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         axios
-          .delete(`http://localhost:5000/carts/${item._id}`)
+          .delete(`https://food-carts-server.onrender.com/carts/${item._id}`)
           .then((response) => {
             if (response) {
               refetch();

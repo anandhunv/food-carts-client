@@ -9,7 +9,7 @@ const useCart = () => {
     const { refetch, data: cart = [] } = useQuery({
         queryKey: ['carts', user?.email],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/carts?email=${user?.email}`, {
+            const res = await fetch(`https://food-carts-server.onrender.com/carts?email=${user?.email}`, {
                 headers: {
                     authorization: `Bearer ${token}`
                 }
