@@ -1,10 +1,5 @@
 {
   "projects": {
-    "default": "food-carts4u",
-    "production": "food-carts4u",
-    "development": "food-carts4u"
-  },
-  "targets": {},
-  "etags": {},
-  "dataconnectEmulatorConfig": {}
+    "default": "food-cartss"
+  }
 }
