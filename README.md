@@ -1,6 +1,6 @@
 # Foodi - Food Ordering App
 
-![Foodi Logo](path-to-your-logo-image/logo.png)
+![Foodi Logo](public/logo.png)
 
 Foodi is a full-stack food ordering application built with the MERN stack (MongoDB, Express, React, Node.js). It features user authentication, cart management, menu browsing, and Stripe integration for payment processing.
 
