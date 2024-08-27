@@ -13,7 +13,7 @@ const ManageBookings = () => {
     queryKey: ["orders", user?.email],
     enabled: !loading,
     queryFn: async () => {
-      const res = await fetch(`https://food-carts-server.onrender.com/payments/all`, {
+      const res = await fetch(`http://localhost:5000/payments/all`, {
         headers: {
           authorization: `Bearer ${token}`,
         },
