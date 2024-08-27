@@ -1,6 +1,9 @@
 # FOOD-CARTS || FoodOrdering App
 
-![Foodi Logo](public/logo.png)
+#### Home Page
+
+![Home Page Screenshot](screenshots/home.png)
+
 
 Food-Carts is a full-stack food ordering application built with the MERN stack (MongoDB, Express, React, Node.js). It features user authentication, cart management, menu browsing, and Stripe integration for payment processing.
 
@@ -37,9 +40,7 @@ Food-Carts is a full-stack food ordering application built with the MERN stack (
 
 ### Screenshots
 
-#### Home Page
 
-![Home Page Screenshot](screenshots/home.png)
 
 #### Menu Page
 
@@ -169,6 +170,8 @@ Contributions are welcome! Please open an issue or submit a pull request if you'
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin feature-name`
 5. Open a pull request.
+
+![Foodi Logo](public/logo.png)
 
 ## License
 
